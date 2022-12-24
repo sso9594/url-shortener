@@ -31,8 +31,7 @@ public class urlservice {
         int id= Optional.ofNullable(url_repository.findByOriginurl(url_dto.getOriginurl()))
                 .map(url::getId)
                 .orElseGet(()->save(url_dto));
-
-        return initurl.init(base_62.encoding(id));
+        return base_62.encoding(id);
     }
 
     public String restoreUrl(String shrturl){

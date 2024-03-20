@@ -24,6 +24,4 @@ Base64에서 62번째(+), 63번째(/) 기호는 url에서 parameter로 사용할
 ![image](https://user-images.githubusercontent.com/58455389/209343479-5e4bfd61-c146-4358-9a67-30ec7b42733e.png)
 
 ## Current Situation
-12/24 기능에 오류가 발생하여 수정중..
 
-12/25 어플리케이션 형식으로 먼저 구현중, 입력-> 키값 할당-> encoding-> 데이터베이스 저장-> shortUrl 반환-> decoding 까지 구현 decoding된 값이 originUrl을 불러오는 부분에 있어서 오류가 발생하여 해결중입니다..! web형식에 있어서 jsp <-> controller 간에 데이터 전송을 할 때 controller에서 받는 값이 Null로 고정되는 오류가 발생하였습니다.
